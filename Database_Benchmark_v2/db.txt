@@ -1,0 +1,72 @@
+DROP DATABASE IF EXISTS test;
+CREATE DATABASE test;
+DROP TABLE IF EXISTS test.test1;
+CREATE TABLE test.test1(
+network char(10),
+station char(10),
+location char(10),
+channel char(10),
+starttime char(50),
+endtime char(50),
+sampling_rate char(10),
+delta char(10),
+npts char(10),
+calib char(10),
+data text(10000)
+);
+DROP TABLE IF EXISTS test.test2;
+CREATE TABLE test.test2(
+network char(10),
+station char(10),
+location char(10),
+channel char(10),
+starttime char(50),
+endtime char(50),
+sampling_rate char(10),
+delta char(10),
+npts char(10),
+calib char(10),
+data text(10000)
+);
+DROP TABLE IF EXISTS test.test3;
+CREATE TABLE test.test3(
+network char(10),
+station char(10),
+location char(10),
+channel char(10),
+starttime char(50),
+endtime char(50),
+sampling_rate char(10),
+delta char(10),
+npts char(10),
+calib char(10),
+data text(10000)
+);
+DROP TABLE IF EXISTS test.test4;
+CREATE TABLE test.test4(
+network char(10),
+station char(10),
+location char(10),
+channel char(10),
+starttime char(50),
+endtime char(50),
+sampling_rate char(10),
+delta char(10),
+npts char(10),
+calib char(10),
+data text(10000)
+);
+DROP TABLE IF EXISTS test.test5;
+CREATE TABLE test.test5(
+network char(10),
+station char(10),
+location char(10),
+channel char(10),
+starttime char(50),
+endtime char(50),
+sampling_rate char(10),
+delta char(10),
+npts char(10),
+calib char(10),
+data text(10000)
+);
